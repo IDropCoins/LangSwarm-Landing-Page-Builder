@@ -1,0 +1,13 @@
+# <type>(<scope>): <subject — imperative, ~72 chars max>
+#
+# Types: feat | fix | docs | style | refactor | test | chore | ci | build
+#
+# Body (optional): explain what and why (wrap at ~72 chars).
+#
+# Footer (optional):
+# BREAKING CHANGE: <description>
+# Refs: #<issue>
+
+# ---
+# Subject line only is OK for tiny changes. Delete the comment lines above
+# before saving if your editor does not strip them automatically.

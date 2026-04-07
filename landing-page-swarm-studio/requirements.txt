@@ -1,0 +1,6 @@
+# Python >= 3.10 required (langgraph-swarm has no wheels for 3.9)
+langchain==1.2.15
+langgraph==1.1.6
+langgraph-swarm==0.1.0
+langchain-openai==1.1.12
+python-dotenv==1.2.2
