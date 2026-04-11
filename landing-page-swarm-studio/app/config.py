@@ -19,6 +19,7 @@ class Settings:
 
 
 def get_settings() -> Settings:
+    """Load OpenAI API key and model id from the environment (and optional ``.env``)."""
     key = os.getenv("OPENAI_API_KEY", "").strip()
     model = os.getenv("OPENAI_MODEL", "openai:gpt-4o").strip()
     return Settings(openai_api_key=key, openai_model=model)
