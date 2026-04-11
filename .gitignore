@@ -43,3 +43,6 @@ env/
 htmlcov/
 .mypy_cache/
 .ruff_cache/
+
+# Type checking
+pyrightconfig.json
